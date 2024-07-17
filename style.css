@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor
+{
+    width: 1200;
+    background-color: rgb(210, 231, 14);
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.contenedor__item{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    padding: 30px;
+}
+
+@media (max-width:991px) {
+    
+    .contenedor__item{
+        display:inline;
+        
+    }
+    li{
+        padding: 1vw;
+    }
+}
