@@ -30,9 +30,17 @@ nav{
     
     .contenedor__item{
         display:inline;
+   
         
     }
     li{
         padding: 1vw;
+    }
+    .contenedor{
+        background-color: red;
+       
+    }
+    a{
+        color: white;
     }
 }
